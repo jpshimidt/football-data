@@ -1,11 +1,12 @@
 import './App.css';
+import getListTournament from '../services/api';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Xuxa</h1>
-      </header>
+      <h1>Xuxa</h1>
+      <button onClick={() => getListTournament() }> Click aqui!</button>
+
     </div>
   );
 }
